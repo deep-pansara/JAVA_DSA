@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c1bea24-07e2-4a0b-82d9-79d513ee4a3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dsa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/AvarageOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/FunctionToReverseArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/MaximumElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/SumOfArray.java" afterDir="false" />
+    <list default="true" id="4c1bea24-07e2-4a0b-82d9-79d513ee4a3a" name="Changes" comment="DSA array">
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/MaximumValueOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +43,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AscendinOrderCheck.executor": "Run",
     "Application.AvarageOfArray.executor": "Run",
+    "Application.FIndLeader.executor": "Debug",
     "Application.FunctionToReverseArray.executor": "Run",
+    "Application.MaximumElementInArray.executor": "Run",
+    "Application.MaximumValueOfArray.executor": "Run",
     "Application.SumOfArray.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -63,7 +58,7 @@
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Deep/Learning/Java/STAR/dsa/src/Main.java",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -102,6 +97,112 @@
       <option name="presentableId" value="Default" />
       <updated>1717385691235</updated>
     </task>
+    <task id="LOCAL-00001" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717389134741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717389134741</updated>
+    </task>
+    <task id="LOCAL-00002" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717389215696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717389215696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717471469992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471469992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717471588202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471588202</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717471691716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471691716</updated>
+    </task>
+    <task id="LOCAL-00006" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717471701762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717471701762</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="796a5ecb-ba0a-43dc-a32b-c363fd17970a" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="796a5ecb-ba0a-43dc-a32b-c363fd17970a">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="DSA array" />
+    <option name="LAST_COMMIT_MESSAGE" value="DSA array" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/dsa/array/FIndLeader.java</url>
+          <line>5</line>
+          <properties class="com.dsa.array.FIndLeader" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
