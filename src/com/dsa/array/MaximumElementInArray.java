@@ -8,18 +8,30 @@ public class MaximumElementInArray {
 
         MaximumElementInArray m = new MaximumElementInArray();
         int maximum = m.maxElement(num);
+        int minimum = m.minElement(num);
         System.out.println(maximum);
+        System.out.println(minimum);
 
     }
 
     int maxElement(int[] arr) {
-        int max = 0;
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] > max) {
+        int max = arr[0];
+        for (int i = max; i < arr.length; i++) {
+            if (arr[i] < max) {
                 max = arr[i];
             }
         }
         return max;
+    }
+
+    int minElement(int[] arr) {
+        int min = arr[0];
+        for (int i = min; i < arr.length; i++) {
+            if (arr[i] > min) {
+                min = arr[i];
+            }
+        }
+        return min;
     }
 
 
