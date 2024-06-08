@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c1bea24-07e2-4a0b-82d9-79d513ee4a3a" name="Changes" comment="DSA array">
-      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/SecondLargestArrayElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/dsa/array/FindDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/array/FIndLeader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/array/FIndLeader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;deep-pansara&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="614e3aee-078f-42cd-a7e4-bfe2bd31aa1b" />
+        <option name="url" value="https://github.com/deep-pansara/JAVA_DSA" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/com/dsa/array/AvarageOfArray.java" root0="FORCE_HIGHLIGHTING" />
@@ -50,6 +63,7 @@
     &quot;Application.FunctionToReverseArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumElementInArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaximumValueOfArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargestArrayElement.executor&quot;: &quot;Run&quot;,
     &quot;Application.SumOfArray.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -162,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717475161565</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="DSA array">
+      <option name="closed" value="true" />
+      <created>1717740392813</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717740392813</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
